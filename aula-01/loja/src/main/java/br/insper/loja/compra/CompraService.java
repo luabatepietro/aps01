@@ -56,7 +56,6 @@ public class CompraService {
                 })
                 .toList();
 
-        // Calcula o total e verifica o estoque
         double total = 0;
         for (Produto produto : produtos) {
             if (produto.getQuantidade() < 1) {
