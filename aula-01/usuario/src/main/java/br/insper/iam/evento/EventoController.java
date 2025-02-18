@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/evento")
-@CrossOrigin(origins = "http://localhost:8080") // Permite requisições da aplicação lojaApplication
+@CrossOrigin(origins = "http://localhost:8080")
 public class EventoController {
 
     @Autowired
